@@ -1,0 +1,79 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 75px;
+}
+
+h2{
+    font-size: 40px;
+}
+.container{
+    display:flex;
+}
+.donate h2 {text-shadow: 2px 2px #f2aa7e;}
+
+.words h2 {text-shadow: 2px 2px #f2aa7e;}
+p {
+    font-size: 20px;
+}
+    
+.header, .donate, .footer, .words{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+.header {
+    color: #FACFAD;
+    background-color:#3E4E50;
+    border: 3px dotted white;
+}
+
+.donate {
+    background: #FACFAD;
+    color:#3E4E50;
+    border-right:3px dotted white;
+    width: 90%;
+}
+.pics img{
+    width: 80%;
+    border: 3px dotted white;
+}
+.pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: #F8BD7F;
+    width:70%;
+}
+.words{
+    background: #FACFAD;
+    color:#3E4E50;
+    border-left:3px dotted white;
+    width: 80%;
+    padding-top:150px;
+}
+.footer {
+    display: flex;
+    color: #3E4E50;
+    background-color:#F2AA7E;
+    border: 3px dotted white;
+}
+.donate button {
+    width: 200px;   
+    height: 50px;
+    font-size: 20px;
+    background: #F2AA7E;
+    color: white;
+    border-radius: 5px;
+    border: dotted white 3px;
+}
+
+.donate button:hover {
+    background: #3E4E50;
+    color: #F8BD7F;
+}
